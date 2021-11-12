@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="public/tailwind.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <div class="min-h-screen flex items-center justify-center py-16 px-4 bg-gray-900">
+      <div
+        class="
+          max-w-xs
+          rounded-lg
+          overflow-hidden
+          bg-gray-800
+          md:max-w-4xl
+          sm
+          md:grid md:grid-cols-2
+        "
+      >
+        <div class="order-2 relative">
+          <img
+            src="images/image-header-mobile.jpg"
+            alt=""
+            class="min-h-full object-cover"
+          />
+          <div class="absolute inset-0 bg-purple-900 opacity-60"></div>
+        </div>
+        <div class="px-6 py-8 text-center text-white md:text-left md:p-12">
+          <h1 class="text-3xl font-bold">
+            Get <span class="text-purple-500">insights</span> that help your business
+            grow.
+          </h1>
+          <div class="text-gray-400 mt-6">
+            Discover the benefits of data analytics and make better decisions regarding
+            revenue, customer experience, and overall efficiency.
+          </div>
+          <div class="flex flex-col gap-6 mt-8 md:flex-row md:gap-0 md:justify-between">
+            <div>
+              <div class="text-3xl font-bold">10k+</div>
+              <div class="text-xs text-gray-400 font-semibold uppercase">companies</div>
+            </div>
+            <div>
+              <div class="text-3xl font-bold">314</div>
+              <div class="text-xs text-gray-400 font-semibold uppercase">templates</div>
+            </div>
+            <div>
+              <div class="text-3xl font-bold">12M+</div>
+              <div class="text-xs text-gray-400 font-semibold uppercase">queries</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
